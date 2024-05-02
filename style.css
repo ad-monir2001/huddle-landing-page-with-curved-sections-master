@@ -11,3 +11,9 @@
   --Very-Dark-Cyan: hsl(192, 100%, 9%);
   --Very-Pale-Blue: hsl(207, 100%, 98%);
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
