@@ -17,3 +17,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/** Style rule for header section **/
+
+.container {
+  padding: 1.8rem 5% 0 5%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header a {
+  text-decoration: none;
+  color: var(--Pink);
+  font-family: var(--font-1);
+  border: 2px solid var(--Pink);
+  border-radius: 25px;
+  padding: .5rem 1.6rem;
+}
