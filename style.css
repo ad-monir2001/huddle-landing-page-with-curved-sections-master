@@ -72,8 +72,31 @@
   box-shadow: 2px 6px 10px rgb(211, 210, 210);
 }
 
-
 .hero__image {
   width: 800px;
   margin: 0 auto;
 }
+
+/* ! style rule for community sections */
+
+.communities {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 5rem 0;
+}
+
+.bold__number {
+  font-family: var(--font-2);
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 90px;
+}
+
+.communities__message {
+  font-family: var(--font-1);
+  color: gray;
+}
+
+/* ! style rule for grow section */
+
